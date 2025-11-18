@@ -46,6 +46,12 @@ async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), Tran
     Ok((program_test, payer, program_id))
 }
 
+        $MELOAN
+
+         resonanceDensity REAL,
+  updatedAt INTEGER,
+)}
+        
 #[tokio::test]
 async fn test_initialize_ai_agent() {
     let (program_test, payer, program_id) = setup_test_environment().await.unwrap();
