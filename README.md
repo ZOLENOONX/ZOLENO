@@ -1,97 +1,101 @@
-# CODNIX
+# FOGONE
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-Codnix-blue?logo=google-chrome)](https://codnix.tech/)
-[![Twitter](https://img.shields.io/badge/Twitter-Codnix-blue?logo=twitter)](https://x.com/CODNIXBLOCK)
+[![Website](https://img.shields.io/badge/Website-FOGONE-blue?logo=google-chrome)](https://fogone.run/)
+[![Twitter](https://img.shields.io/badge/Twitter-FOGONE-blue?logo=twitter)](https://x.com/ITSFOGONE)
 
-```
-AtAP4bbb7Kie9Cw8iWPQQh5mK6eyvvNDe91CpWbPpump
-```
+# 🌫️ Fogone — On-Chain Pond Constructor for SPL Assets
 
-# Codnix
+Fogone is a new ecological framework built on Solana that creates an independent **on-chain pond** for every SPL token.  
+Instead of relying on traditional AMM pools or abstract numerical metrics, Fogone transforms token behavior into a **visual, interpretable habitat** that reveals its liquidity state, ecological health, and growth trajectory.
 
-> Build Solana projects using smart modules.
-
-Codnix is a modular development framework on Solana that lets you build on-chain projects like assembling code blocks.  
-Instead of wiring everything from scratch, you compose features from ready-to-use modules, generate scaffolding, run checks, and ship.
-
-On-chain V1 is open-sourced in this repository.
+Fogone does **not** predict prices or manipulate liquidity.  
+It simply exposes the underlying physical structure of on-chain behavior — giving every asset its own habitat.
 
 ---
 
-## ✨ What is Codnix?
+## 🔍 What Is Fogone?
 
-Codnix is designed to make Solana development feel less like wrestling with boilerplate and more like composing a system.
+Fogone turns raw Solana on-chain data into a nature-inspired ecological model.  
+Each SPL token receives its own **pond**, dynamically shaped by:
 
-- Treat core on-chain capabilities (tokens, NFTs, roles, governance, staking, etc.) as **modules**.
-- Use a **scaffolding engine** to generate project structure and core contract code.
-- Run **basic safety checks** before deploying to Devnet, Testnet or Mainnet.
+- Holder concentration  
+- Buy/sell rhythm  
+- Liquidity density  
+- Accumulation and dispersal  
+- Behavioral clusters  
+- On-chain activity flow  
 
-If you understand the business logic, Codnix helps you turn it into runnable Solana code faster.
-
----
-
-## 🔧 Core Features
-
-### 1. Modular Project Composition
-Codnix organizes common Solana patterns into composable modules:
-- Tokens (SPL-style configurations)
-- NFTs & collections
-- Roles / access control / governance hooks
-- Staking / locking / fee routing primitives
-
-You select the modules you need and Codnix generates the project skeleton around them.
+These structures form a living, evolving **token ecosystem** that any user can visually interpret.
 
 ---
 
-### 2. Scaffolding & Checks in One Flow
-Codnix aims to cover the “from idea to first deployable version” path:
+## 🌱 Core Concept
 
-- Generate project structure and core contract scaffolding.
-- Wire basic configuration and interface definitions.
-- Run essential security checks and logic validation before deployment.
+**“Building an independent on-chain pond for every SPL token, redefining liquidity through an ecological structural model.”**
 
----
+Fogone reveals:
 
-## 🔁 Workflow
-
-Codnix’s workflow is intentionally simple and split into two major phases.
-
-### I. Build
-
-1. **Select Modules**  
-   Select the modules you need — tokens, NFTs, roles, governance, and more.
-
-2. **Generate Scaffolding**  
-   Codnix automatically generates your project structure and core contract scaffolding.
-
-### II. Ship
-
-1. **Run Checks**  
-   Run essential security checks and basic logic validation.
-
-2. **Deploy Fast**  
-   Deploy your project to Devnet, Testnet, or Mainnet.
+- Whether a token is stable or fragile  
+- Whether liquidity is expanding or contracting  
+- Whether capital is clustering or dispersing  
+- Whether holder behavior forms healthy ecosystems  
+- Whether the token is growing, stagnating, or collapsing  
 
 ---
 
-## 🚀 Getting Started
+## 🧠 How It Works (Workflow)
 
-> The commands below are a reference template.  
-> Adjust them to match the actual CLI / structure as the project evolves.
+### **1. Capture**
+Fogone captures all on-chain behavioral signals — buys, sells, liquidity shifts, holder concentration, and activity patterns.
 
-### Prerequisites
+### **2. Construct**
+It constructs a dynamic **on-chain pond** by converting these signals into ecological structures: depth, ripples, density fields, and center-of-gravity movement.
 
-- Rust & Cargo installed
-- Solana tool suite installed (`solana --version`)
-- (Optional) Anchor installed (`anchor --version`)
+### **3. Render**
+Fogone renders the evolving habitat in real time, allowing users to see the token’s true liquidity state and ecological health.
 
-### Clone the repository
+---
+
+## ⚙️ Key Features
+
+- **On-Chain Pond Structure**  
+  A natural, visual, interpretable ecology for each SPL token.
+
+- **Liquidity Density Mapping**  
+  Understand where liquidity forms, concentrates, or drains.
+
+- **Behavior-Based Physics Layer**  
+  Ripple strength, depth shifts, and flow behavior based on real actions.
+
+- **Holder Ecosystem Visualization**  
+  Wallet clustering → pond center of gravity.
+
+- **Growth Trajectory Simulation**  
+  Not predicting price — revealing ecological direction.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Solana Web3.js / Rust**
+- **Custom ecological modeling engine**
+- **On-chain activity parser**
+- **Real-time rendering layer**
+- **Lightweight API interface**
+
+(If你未来上传代码，我可帮你补齐具体模块说明)
+
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/your-org/codnix.git
-cd codnix
+git clone https://github.com/your-org/fogone.git
+cd fogone
+npm install
+npm run dev
