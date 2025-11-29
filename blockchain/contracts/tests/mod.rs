@@ -177,6 +177,12 @@ and emits an `IntentCreated` event to trigger the relay sequence.
             &ontora_ai::ID,
         );
 
+        platform_config_pda,
+            platform_config_bump,
+            INITIAL_REWARD_RATE,
+            true, // Governance enabled.
+        ).await;
+
         // Initialize the platform first.
         initialize_platform(
             &mut context,
