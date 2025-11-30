@@ -1,5 +1,5 @@
 #!/bin/bash  
-# build_all.sh SOCODE
+# build_all.sh INPAYX
 # Build script for all components including smart contracts, backend, and frontend
 
 # Exit on any error to prevent partial builds
